@@ -1,0 +1,72 @@
+h1 {
+    display: flex;
+    padding-bottom: 4rem;
+    justify-content: center;
+}
+.bg-image {
+  background-image: url(../assets/Banners/optional_banner_1.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+
+}
+
+.bg-image2 {
+  background-image: url(../assets/Banners/optional_banner_2.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+
+.bg-image3 {
+  background-image: url(../assets/Banners/optional_banner_5.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+.formcontainter {
+background-color: black;
+padding: 12rem;
+}
+
+footer {
+margin-top: 16rem;
+background-color: #F42019;
+display: flex;
+justify-content: space-around;
+}
+.footerpics {
+  max-width: 3rem;
+}
+
+.detailsimg {
+ object-fit: 20rem;
+}
+
+.navstyle a{
+    color: brown;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    height: 2em;
+    width: 2em;
+  }
+
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+    height: 2em;
+    width: 2em;
+  }
+
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+    height: 2em;
+    width: 2em;
+  }
