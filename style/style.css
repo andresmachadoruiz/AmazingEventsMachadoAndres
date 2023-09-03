@@ -1,8 +1,4 @@
-h1 {
-    display: flex;
-    padding-bottom: 4rem;
-    justify-content: center;
-}
+
 .bg-image {
   background-image: url(../assets/Banners/optional_banner_1.jpg); 
   background-size: cover;
@@ -21,6 +17,20 @@ h1 {
 }
 
 .bg-image3 {
+  background-image: url(../assets/Banners/optional_banner_3.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+.bg-image4 {
+  background-image: url(../assets/Banners/optional_banner_4.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+.bg-image5 {
   background-image: url(../assets/Banners/optional_banner_5.jpg); 
   background-size: cover;
   background-position: center;
@@ -30,6 +40,20 @@ h1 {
 .formcontainter {
 background-color: black;
 padding: 12rem;
+}
+
+.cardscontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+}
+
+.card1 {
+padding: 1rem;
+border: solid #8e3936;
+border-radius: 2%;
+object-fit: contain;
 }
 
 footer {
