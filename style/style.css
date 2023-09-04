@@ -42,13 +42,6 @@ background-color: black;
 padding: 12rem;
 }
 
-.cardscontainer {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-
-}
-
 .card1 {
 padding: 1rem;
 border: solid #8e3936;
@@ -57,10 +50,13 @@ object-fit: contain;
 }
 
 footer {
-margin-top: 16rem;
+margin-top: auto;
 background-color: #F42019;
 display: flex;
 justify-content: space-around;
+position:sticky;
+
+
 }
 .footerpics {
   max-width: 3rem;
@@ -93,4 +89,18 @@ justify-content: space-around;
     color: white;
     height: 2em;
     width: 2em;
+  }
+
+  .layout {
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  }
+  .main {
+    flex-grow: 1;
+  }
+  h1 {
+    color: rgb(181, 48, 24);
+    opacity: .7;
   }

@@ -1,7 +1,7 @@
 let eventsList = data.events;
 const currentDate = parseInt(data.currentDate.split("-").join(""));
 
-function createCard(data) {
+function createCard(indEvents) {
     return `
     <div class="card1 col">
         <img src="${indEvents.image}" class="card-img-top" alt="homebanner2" style="width: 18rem">
@@ -17,7 +17,7 @@ function newCards(listCards)
     let template = "";
     for (const indEvents of listCards) {
         if (dateToNumber >= currentDate) {
-        console.log(dateToNumber);
+
         if (dateToNumber >= currentDate) {
             template += createCard(indEvents);
         }

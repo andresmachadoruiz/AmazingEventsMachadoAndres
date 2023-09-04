@@ -11,6 +11,7 @@
     <title>Amazing Events</title>
 </head>
 <body>
+  <div class="layout d-flex flex-column"> 
 <header>
   <nav class="navbar navbar-expand-lg bg-body-tertiary col-12 col-sm-12 col-md-12 col-lg-12">
     <div class="container-fluid justify-content-around">
@@ -44,9 +45,9 @@
     </div>
   </nav>
 </header>
-<main class="div-flex-grow p-2x">
-  <div class="container-fluid bg-image d-flex justify-content-center">
-    <h1 class="d-flex justify-content-center">Home of Amazing Events</h1>
+<main class="div-flex-grow">
+  <div class="container-fluid bg-image d-flex justify-content-center bg-light align-items-center">
+    <h1>Home of Amazing Events</h1>
   </div>
   <div class="m-5">
     <div class="d-flex align-items-center justify-content-around cont1section">
@@ -77,12 +78,11 @@
       </form>
     </div>
   </div>  
-<div class="cardscontainer d-flex row flex-grow-1" id="cardsContain">   
+<div class="cardscontainer d-flex row col-sm-10 flex-grow-1" id="cardsContain">   
 </div>
 </main>
  
 <footer>
-
       <div class="row">
           <div class="col-md-6">
             <div class="d-flex gap-3">
@@ -97,6 +97,7 @@
       </div>
   </div>
 </footer>
+</div>
 ] <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="./JS/data.js"></script>
     <script src="./JS/index.js"></script>
