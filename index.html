@@ -4,158 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/Logos/favicon.png" type="image/x-icon">
-    <title>Amazing Events</title>
+    
     <link rel="stylesheet" href="./Style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Amazing Events</title>
 </head>
 <body>
+  <div class="layout d-flex flex-column"> 
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary col-12 col-sm-12 col-md-12 col-lg-12" role="navigation">
-        <div class="container-fluid">
-          <div class="container">
-            <a class="navbar-brand" href="./index.html">
-              <img src="./assets/Logos/amazing_brand.png" alt="Bootstrap" width="48" height="25">
-            </a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse d-flex col col-sm-10 justify-content-end" id="navbarNav">
-            <ul class="navbar-nav navstyle">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/upcoming.html">Upcoming Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/pastevents.html">Past Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./pages/stats.html">Stats</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-</header> 
-<main>
-  <div class="container-fluid bg-image d-flex justify-content-center">
-    <h1>Home of Amazing Events</h1>
-  </div>
-  <div class="subnavcontain d-flex row align-baseline"> 
-    <div class="subnavrow d-flex column">
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-            <label class="form-check-label" for="inlineCheckbox1">Category</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-            <label class="form-check-label" for="inlineCheckbox2">Category</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-            <label class="form-check-label" for="inlineCheckbox3">Category</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-            <label class="form-check-label" for="inlineCheckbox4">Category</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-            <label class="form-check-label" for="inlineCheckbox5">Category</label>
-        </div>
-        <div class="input-group d-flex justify-content-end">
-            <div class="form-outline d-flex col">
-                <input type="search" id="form1" class="form-control"/>
-                <label class="form-label" for="form1"></label>
-            </div>
-            <button href="./assets/Images /Logos/" class="btn btn-primary"><i class="bi bi-search"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-search" viewBox="0 0 16 16">
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-            </svg></i>
-            </button>
-        </div>
-    </div>
-</div>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center pt-1 pb-1">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/Pictures/cinema.jpg" class="card-img-top" alt="homebanner1">
-          <div class="card-body">
-            <h2 class="card-title">Avengers</h2>
-            <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best superheroes</p>
-            <div class="d-flex row">
-              <p>Price: $$$</p>
-              <a href="./pages/details.html" class="btn btn-primary">See More Details</a>
-            </div>
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary col-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="container-fluid justify-content-around">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/Logos/amazing_brand.png" alt="Bootstrap" width="55" height="30">
+        </a>
       </div>
-      
-      <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center pt-1 pb-1">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/Pictures/music_concert.jpg" class="card-img-top" alt="homebanner2">
-          <div class="card-body">
-            <h2 class="card-title">Metallica in concert</h2>
-            <p class="card-text">The only concert of the most emblematic band in the world</p>
-            <a href="./pages/details.html" class="btn btn-primary">See More Details</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center pt-1 pb-1">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/Pictures/food_fair.jpg" class="card-img-top" alt="homebanner3">
-          <div class="card-body">
-            <h2 class="card-title">Food Fair</h2>
-            <p class="card-text">Enjoy your favorite dishes from different countries in a unique event for the whole family.</p>
-            <a href="./pages/details.html" class="btn btn-primary">See More Details</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center pt-1 pb-1">
-        <div class="card" style="width: 18rem;">
-          <img src="./assets/Images /Pictures /optional_banner_4.jpg" class="card-img-top" alt="homebanner4">
-          <div class="card-body">
-            <h2 class="card-title">Halloween Night</h2>
-            <p class="card-text">Come in your scariest costume character to win amazing prizes.</p>
-            <a href="./pages/details.html" class="btn btn-primary">See More Details</a>
-          </div>
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav d-flex flex-col" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navstyle d-flex align-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/upcoming.html">Upcoming Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/pastevents.html">Past Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./pages/stats.html">Stats</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+</header>
+<main class="div-flex-grow">
+  <div class="container-fluid bg-image2 d-flex justify-content-center text-light align-items-center"> 
+  <h1>Home of Amazing Events</h1>
+   </div>
+   <div class="d-lg-flex justify-content-lg-between align-content-lg-center gap-2">
+    <div class="checksearch" id="checkContainer"></div>
+    <div>
+      <form class="navform" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-info" type="button">Search</button>
+      </form>
+    </div>
   </div>
-  <div class="d-flex" style="height: 200px;">
-    <div class="vr"></div>
-  </div>
-
+<div class="d-flex flex-wrap justify-content-center" id="cardsContain"></div>
 </main>
  
 <footer>
-  <div class="container">
-      <div class="row">
-          <div class="col-md-6">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-sm-6">
             <div class="d-flex gap-3">
-              <img class="footerpics" src="./assets/Logos/facebook.png" alt="Facebook picture"/>
-              <img class="footerpics" src="./assets/Logos/instagram.png" alt="Instagram picture"/>
-              <img class="footerpics" src="./assets/Logos/whatsapp.png" alt="Whatsapp picture"/>
+              <img class="footerpics" src="./assets/Logos/facebook.png" alt="Facebook picture">
+              <img class="footerpics" src="./assets/Logos/instagram.png" alt="Instagram picture">
+              <img class="footerpics" src="./assets/Logos/whatsapp.png" alt="Whatsapp picture">
             </div>
           </div>
           <div class="col-6 d-flex justify-content-end">
               <p>Cohort 51</p>
           </div>
+        </div>
       </div>
-  </div>
 </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="./JS/data.js"></script>
+
+<script src="./JS/index.js"></script>
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
 </body>
 </html>

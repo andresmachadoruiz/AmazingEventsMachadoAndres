@@ -1,8 +1,4 @@
-h1 {
-    display: flex;
-    padding-bottom: 4rem;
-    justify-content: center;
-}
+
 .bg-image {
   background-image: url(../assets/Banners/optional_banner_1.jpg); 
   background-size: cover;
@@ -21,23 +17,46 @@ h1 {
 }
 
 .bg-image3 {
+  background-image: url(../assets/Banners/optional_banner_3.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+.bg-image4 {
+  background-image: url(../assets/Banners/optional_banner_4.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh; 
+}
+.bg-image5 {
   background-image: url(../assets/Banners/optional_banner_5.jpg); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 75vh; 
 }
-.formcontainter {
-background-color: black;
-padding: 12rem;
+
+
+.navform {
+  display: flex;
+}
+
+.cardimg {
+  object-fit: cover;
+  height: 20vh;
+  width: 90%;
 }
 
 footer {
-margin-top: 16rem;
+margin-top: 2em;
 background-color: #F42019;
 display: flex;
 justify-content: space-around;
+
 }
+
 .footerpics {
   max-width: 3rem;
 }
@@ -49,24 +68,30 @@ justify-content: space-around;
 .navstyle a{
     color: brown;
 }
+  .layout {
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
-.fa-instagram {
-    background: #125688;
-    color: white;
-    height: 2em;
-    width: 2em;
+  }
+  main {
+    flex-grow: 1;
   }
 
-  .fa-reddit {
-    background: #ff5700;
-    color: white;
-    height: 2em;
-    width: 2em;
+  h1 {
+    color: rgb(181, 48, 24);
+    opacity: .7;
   }
 
-  .fa-vimeo {
-    background: #45bbff;
-    color: white;
-    height: 2em;
-    width: 2em;
+.checktest {
+  display: flex;
+}
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .checksearch {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
